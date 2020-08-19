@@ -1,0 +1,144 @@
+.sigCanvas{
+  width: 70%;
+  height: 100%;
+  margin: 0;
+  background: #FFFFFF;
+  border: 2px solid black;
+}
+
+.sigPad{
+  width: 100%;
+  height: 100%;
+}
+
+.gridContainer{
+  flex-grow: 1;
+  align-items: stretch;
+  align-content: stretch;
+  margin: 8;
+}
+
+.columnTitle{
+  border: 0.5px solid black;
+  min-height: 3rem;
+}
+
+.rowTitle{
+  border: 0.5px solid black;
+  min-height: 5rem;
+}
+
+
+.btnLow{
+  color: #000;
+  background-color: #aed581;
+  &:hover {
+    background-color: #8bc34a;
+  }
+}
+
+.btnMedium{
+  color: #000;
+  background-color: #fff176;
+  &:hover {
+    background-color: #fdd835;
+  }
+}
+
+.btnHigh{
+  color: #000;
+  background-color: #ffb74d;
+  &:hover {
+    background-color: #ff9800;
+  }
+}
+.btnCritical{
+  color: #000;
+  background-color: #ff8a65;
+  &:hover {
+    color: #fff;
+    background-color: #ff5722;
+  }
+}
+
+.selectedPart{
+  margin-top: 16px;
+  margin-bottom: 8px;
+}
+
+.elimSwitch{
+  .MuiSwitch-switchBase{
+    color: #528b9d !important;
+    & .Mui-checked{
+      color: #0277bd;
+    }
+    &.Mui-checked + .MuiSwitch-track{
+      background-color: #0277bd !important;
+    }
+  }
+}
+
+
+.subSwitch{
+  .MuiSwitch-switchBase{
+    color: #6f6c2f !important;
+    & .Mui-checked{
+      color: #524f22;
+    }
+    &.Mui-checked + .MuiSwitch-track{
+      background-color: #524f22 !important;
+    }
+  }
+}
+
+
+.isolationSwitch{
+  .MuiSwitch-switchBase{
+    color: #c3a63b !important;
+    & .Mui-checked{
+      color: #7d6a24;
+    }
+    &.Mui-checked + .MuiSwitch-track{
+      background-color: #7d6a24 !important;
+    }
+  }
+}
+
+.engineeringSwitch{
+  .MuiSwitch-switchBase{
+    color: #ffad4f !important;
+    & .Mui-checked{
+      color: #bd803a;
+    }
+    &.Mui-checked + .MuiSwitch-track{
+      background-color: #bd803a !important;
+    }
+  }
+}
+
+.adminSwitch{
+  .MuiSwitch-switchBase{
+    color: #ed8421 !important;
+    & .Mui-checked{
+      color: #a85c14;
+    }
+    &.Mui-checked + .MuiSwitch-track{
+      background-color: #a85c14 !important;
+    }
+  }
+}
+
+
+
+.ppeSwitch{
+  .MuiSwitch-switchBase{
+    color: #e55525 !important;
+    & .Mui-checked{
+      color: #b1421d;
+    }
+    &.Mui-checked + .MuiSwitch-track{
+      background-color: #b1421d !important;
+    }
+  }
+}
+
